@@ -1,0 +1,258 @@
+
+
+@keyframes imgPrincipal {
+    0%{
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes imgSecundaria {
+    0%{
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes formld {
+    0%{
+        transform: translateX(900px);
+    }
+    
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes menuani {
+    0%{
+        transform: translateX(-900px);
+    }
+    
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #e3d18a, #bd9354, #9e7540, #85603f);
+}
+
+header {
+    height: 100vw;
+    height: 25vh;
+
+    background-color: #160e08;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo > h1{
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #fff;
+
+    margin: 20px 90px;
+}
+
+.brow {
+    color: brown;
+}
+
+.menu {
+    position: relative;
+    animation-name: menuani;
+    animation-duration: 1s;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: row;
+
+    margin: 30px 0px;
+
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.menu > ul > li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.menu > ul > li > a {
+    color: brown;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover,
+.menuSecundario > ul > li > a:hover {
+    color: #897853;
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    width: 100%;
+}
+
+.museu {
+    position: relative;
+    animation-name: imgPrincipal;
+    animation-duration: 3s;
+}
+
+.museu2 {
+    position: relative;
+    animation-name: imgSecundaria;
+    animation-duration: 6s;
+}
+
+section > img {
+    z-index: 2;
+}
+
+.ladoLeft img {
+    width: 53vw;
+}
+
+.ladoLeft{
+    margin: -80px 90px;
+
+    font-family: sans-serif;
+}
+
+.ladoLeft > h3 {
+    text-transform: uppercase;
+}
+
+.cards {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cards a {
+    color: green;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.card1 > iframe {
+    margin: 0 20px;
+}
+
+.lista > ul {
+    padding: 10px;
+}
+
+.lista > ul > li {
+    line-height: 30px;
+}
+
+.lista > ul > li > a {
+    line-height: 0;
+    color: black;
+}
+.lista > ul > li > a:hover {
+    color: #160e08;
+    text-decoration: underline;
+}
+
+.card2 > iframe {
+    margin: 0 40px;
+}
+
+.extYoutube > iframe{
+    width: 20vw;
+    height: 20vh;
+}
+
+.ladoRight {
+    margin: -80px auto;
+}
+
+form {
+    position: relative;
+    animation-name: formld;
+    animation-duration: 1.5s;
+}
+
+form > fieldset {
+    height: 10vh;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f4e1;
+}
+
+input[type="date"] {
+    outline: 0;
+}
+
+input[type="number"] {
+    width: 50%;
+    outline: 0;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    margin-top: 100px;
+    background-color: #160e08;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuSecundario > ul {
+    margin: 90px 0px 20px 0px;
+    display: flex;
+    list-style: none;
+}
+
+.menuSecundario > ul > li {
+    margin: 0 20px 0 20px;
+}
+.menuSecundario > ul > li > a {
+    color: brown;
+    text-decoration: none;
+}
+
+.direitos {
+    color: #fff;
+}
+
+.direitos strong {
+    color: brown;
+}
