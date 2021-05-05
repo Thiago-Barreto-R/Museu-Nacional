@@ -1,0 +1,68 @@
+@keyframes imgPrincipal {
+    0%{
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes imgSecundaria {
+    0%{
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes formld {
+    0%{
+        transform: translateX(900px);
+    }
+    
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes menuani {
+    0%{
+        transform: translateX(-900px);
+    }
+    
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes glranimada {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: .5;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes cardsanimado {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY();
+        opacity: 1;
+    }
+}

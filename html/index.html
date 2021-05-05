@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="home">
     <header>
         <div class="conteiner">
             <div class="logo">
@@ -16,7 +16,7 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="">Exposições</a></li>
                     <li><a href="">Pesquisa</a></li>
                     <li><a href="">Acervo</a></li>
@@ -47,7 +47,7 @@
                                     <li>Plantas do Brasil central</li>
                                     <li>Teresa Cristina: A Imperatriz Arqueóloga</li>
                                     <li>Arte com Dinossauro - Paleoarte</li>
-                                    <li><a href="">Veja todos os (65)</a></li>
+                                    <li><a href="#">Veja todos os (65)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -70,15 +70,15 @@
                 <form action="">
                     <fieldset>
                         <div class="espaco">
-                            <span class="lado1">
-                                <h3>Selecione uma data</h3>
+                            <div class="lado1">
+                                <label>Selecione uma data</label>
                                 <input type="date">
-                            </span>
+                            </div>
                             <br>
-                            <span class="lado2">
-                                <h3>Qtd de Pessoas</h3>
+                            <div class="lado2">
+                                <label>Qtd de Pessoas</label>
                                 <input type="number" required>
-                            </span>
+                            </div>
                         </div>
                         <button class="btn">Verificar disponibilidade</button>
                     </fieldset>
@@ -116,7 +116,7 @@
                 </ul>
             </nav>
             <div class="direitos">
-                <span><p><time datetime="2021-04-15">2019</time> <strong>Museu Nacional</strong> - Todos os direitos reservados.</p></span>
+                <span><p><time datetime="2021-04-15">2019</time> <span><strong>Museu Nacional</strong></span> - Todos os direitos reservados.</p></span>
             </div>
         </div>
     </footer>
