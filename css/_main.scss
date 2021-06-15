@@ -36,12 +36,6 @@ main {
                     text-decoration: none;
                     line-height: 60px;
                 }
-
-                .card1 {
-
-                    iframe {
-                    }
-                }
                 
                 .lista {
 
@@ -57,10 +51,10 @@ main {
                             a {
                                 line-height: 60px;
                                 color: black;
+                                text-decoration: underline;
 
                                 &:hover {
                                     color: #fff;
-                                    text-decoration: underline;
                                 }
                             }
                         }
@@ -172,12 +166,9 @@ main {
                         padding: 10px;
                         margin: 20px 70px;
                         background-color: transparent;
-                        border-radius: 1em;
+                        border-radius: .6em;
                         transition: all .5s ease-in-out;
-                        border-top: 2px solid black;
-                        border-bottom: 2px solid black;
-                        border-left: none;
-                        border-right: none;
+                        border: 2px solid black;
 
                         &:hover {
                             color: #fff;

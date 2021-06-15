@@ -167,11 +167,11 @@ main .conteiner .ladoLeft .cards .lista ul li {
 main .conteiner .ladoLeft .cards .lista ul li a {
   line-height: 60px;
   color: black;
+  text-decoration: underline;
 }
 
 main .conteiner .ladoLeft .cards .lista ul li a:hover {
   color: #fff;
-  text-decoration: underline;
 }
 
 main .conteiner .ladoLeft .cards .card2 {
@@ -281,13 +281,10 @@ main .conteiner .ladoRight form fieldset .btn {
   padding: 10px;
   margin: 20px 70px;
   background-color: transparent;
-  border-radius: 1em;
+  border-radius: .6em;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  border-left: none;
-  border-right: none;
+  border: 2px solid black;
 }
 
 main .conteiner .ladoRight form fieldset .btn:hover {
